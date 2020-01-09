@@ -1,0 +1,38 @@
+.pageHeader {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: rgb(41, 52, 102);
+    color: white;
+}
+
+.list {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: tan;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.shop {
+    /* border: 1px dotted brown; */
+    width: 29%;
+    text-align: center;
+    padding: 10px;
+    background-color: tan;
+}
+
+header {
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
