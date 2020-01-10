@@ -19,20 +19,29 @@
 }
 
 .shop {
-    /* border: 1px dotted brown; */
+    /* border-bottom: 3px solid black; */
     width: 29%;
     text-align: center;
     padding: 10px;
     background-color: tan;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 
 header {
     font-weight: bold;
+    text-decoration: underline;
+    /* border: 1px solid black; */
 }
 
 img {
     width: 100%;
-    height: 100px;
-    overflow: hidden;
+    /* border: 1px solid black; */
+}
+
+footer {
+    /* border: 1px solid black; */
 }
 
